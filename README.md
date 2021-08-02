@@ -29,3 +29,10 @@ O assembler aceita o código-fonte compilado **nome_do_arquivo.s** e o traduz em
 ### 4. Vinculador (Linker)
 Finalmente, o linker entra em ação e executa a tarefa final do processo de compilação. Aceita o arquivo intermediário nome_do_arquivo.o gerado pelo assembler.
 Ele liga todas as chamadas de função com sua definição original. O que significa que a função printf () é vinculada à sua definição original. O vinculador gera o arquivo executável final.
+
+
+## Especificadores de tipo de classe de armazenamento
+São usados para informar ao compilador como a variável deve ser armazenada.
+* Extern: Informa que as variáveis foram declaradas em outro lugar.
+* Static: Não são reconhecidas fora de sua função/arquivo, mas seus valores são mantidos entre as chamadas.
+* Register: Informa que a variável deve ser armazenada em um registrador da CPU, e não na memória. (Não é permitido variáveis globais)
