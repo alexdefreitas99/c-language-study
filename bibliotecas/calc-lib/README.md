@@ -1,0 +1,1 @@
+Lib com função com retorno inteiro, com dois parametros do tipo inteiro que retorna o maior número inteiro recebo por parâmetro.

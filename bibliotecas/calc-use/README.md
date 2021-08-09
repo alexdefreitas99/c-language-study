@@ -1,0 +1,1 @@
+Projeto que utiliza a lib calc-lib que possui a função max que retorna o maior número recebido por parâmetros.
